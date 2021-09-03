@@ -40,4 +40,20 @@ class Atleta:
         else:
             print("Muito obrigado, agradecemos a sua participação!")
 
+    @property
+    def altura(self):
+        return self.__altura
+    
+    @property
+    def peso(self):
+        return self.__peso
+
+    @property
+    def idade(self):
+        return self.__idade
+
+    @property
+    def imc(self):
+        return self.__imc
+
 atleta = Atleta()
